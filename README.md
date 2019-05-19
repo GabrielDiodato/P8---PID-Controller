@@ -48,13 +48,9 @@ I tested a few different approaches to the controller logic. After numerous blun
 ## Results
 Ultimately, I was able to get the car to safely navigate the track at least three times with a top speed of 88 MPH.
 
-[Here](https://youtu.be/vfcgnVPeyVs) is a video showing the results.
-
-<a href="https://youtu.be/vfcgnVPeyVs"><img src="results/video-thumbnail.png" width="60%" /></a>
-
 ##### &nbsp;
 
-The final parameters can be found [here](https://github.com/tommytracey/Udacity-CarND-Term2/blob/master/p4-PID-control/src/main.cpp#L38):
+The final parameters can be found below:
 
 ```
 // Gain factor for determining target speed relative to steering angle
